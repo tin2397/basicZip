@@ -1,0 +1,6 @@
+Question 2: Implementing a basic version of zip (encoder)
+[10 Marks]
+In this task you will be writing a python program that implements a LZ77 data compression
+scheme to encode (compress) any single (ASCII) text file.In other words, the goal here is for
+you to implement an encoder that is able to compress an input text file by employing a specific
+set of coding schemes.

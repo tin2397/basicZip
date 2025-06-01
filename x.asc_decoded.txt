@@ -1,0 +1,8 @@
+File Name: x.asc
+   Content Length: 12
+   Distinct Characters: ['b', 'c', 'a']
+   Number of Zero as padding in the encoded file: 1
+ 
+Decoded Content: 
+
+aacaacabcaba

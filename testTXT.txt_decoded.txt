@@ -1,0 +1,13 @@
+File Name: testTXT.txt
+   Content Length: 371
+   Distinct Characters: ['e', 'a', 'b', 'I', 'h', 'n', 's', 'i', '\n', 'f', 'l', 't', 'o', '(', 'w', 'd', 'p', 'c', 'm', 'y', ')', 'L', 'Z', 'k', 'r', 'g', 'x', '1', '0', ':', 'z', '7', 'u', '.', 'Q', '[', 'C', 'A', 'S', ']', ',', 'v', 'M', '2', ' ']
+   Number of Zero as padding in the encoded file: 1
+ 
+Decoded Content: 
+
+Question 2: Implementing a basic version of zip (encoder)
+[10 Marks]
+In this task you will be writing a python program that implements a LZ77 data compression
+scheme to encode (compress) any single (ASCII) text file.In other words, the goal here is for
+you to implement an encoder that is able to compress an input text file by employing a specific
+set of coding schemes.
