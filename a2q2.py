@@ -659,17 +659,17 @@ if __name__ == "__main__":
             Otherwise, the program will decode the file that was encoded in the previous step.
         """
         
-        # with open(f'{file_name}.bin', 'r') as read_file:
-        #     stuff = read_file.read()
+        with open(f'{file_name}.bin', 'r') as read_file:
+            stuff = read_file.read()
 
-        # decodeed_file_name, content_length, distinct_chars, decoded_text, padding = master_decode(stuff).values()
+        decodeed_file_name, content_length, distinct_chars, decoded_text, padding = master_decode(stuff).values()
 
-        # with open(f'{decodeed_file_name}_decoded.txt', 'w') as write_file:
-        #     write_file.write(f"File Name: {decodeed_file_name}\n")
-        #     write_file.write(f"   Content Length: {content_length}\n")
-        #     write_file.write(f"   Distinct Characters: {distinct_chars}\n")
-        #     write_file.write(f"   Number of Zero as padding in the encoded file: {padding}\n")
-        #     write_file.write(f" \nDecoded Content: \n\n{decoded_text}")
+        with open(f'{decodeed_file_name}_decoded.txt', 'w') as write_file:
+            write_file.write(f"File Name: {decodeed_file_name}\n")
+            write_file.write(f"   Content Length: {content_length}\n")
+            write_file.write(f"   Distinct Characters: {distinct_chars}\n")
+            write_file.write(f"   Number of Zero as padding in the encoded file: {padding}\n")
+            write_file.write(f" \nDecoded Content: \n\n{decoded_text}")
 
     except FileNotFoundError:
         print(f"Error: The file '{file_name}' was not found.")
